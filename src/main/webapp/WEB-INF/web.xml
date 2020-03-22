@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+  <display-name>WsExample</display-name>
+  <servlet>
+    <servlet-name>MyService</servlet-name>
+    <servlet-class>ddsharpe.samples.jaxws.service.MyService</servlet-class>
+    <load-on-startup>0</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyService</servlet-name>
+    <url-pattern>/user</url-pattern>
+  </servlet-mapping>
+</web-app>

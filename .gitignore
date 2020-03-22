@@ -1,0 +1,7 @@
+# Default ignored files
+**/build
+*.iml
+.idea/
+**/target
+**/.DS_Store
+settings.xml
